@@ -2,7 +2,7 @@
  * App config module.
  * @file 应用运行配置
  * @module app.config
- * @author biaochenxuying <https://github.com/biaochenxuying>
+ * @author alexwjj <https://github.com/alexwjj>
  */
 
 const path = require('path');
@@ -13,18 +13,18 @@ exports.APP = {
 	LIMIT: 10,
 	PORT: 8000,
 	ROOT_PATH: __dirname,
-	NAME: 'biaochenxuying',
-	URL: 'http://biaochenxuying.cn/main.html',
-	FRONT_END_PATH: path.join(__dirname, '..', 'biaochenxuying'),
+	NAME: 'alexwjj',
+	URL: 'http://alexwjj.cn/main.html',
+	FRONT_END_PATH: path.join(__dirname, '..', 'alexwjj'),
 };
 
 exports.CROSS_DOMAIN = {
 	allowedOrigins: [
-		'http://biaochenxuying.cn/main.html',
-		'http://biaochenxuying.cn',
-		'https://github.com/biaochenxuying',
+		'http://alexwjj.cn/main.html',
+		'http://alexwjj.cn',
+		'https://github.com/alexwjj',
 	],
-	allowedReferer: 'biaochenxuying',
+	allowedReferer: 'alexwjj',
 };
 
 exports.MONGODB = {
@@ -39,19 +39,19 @@ exports.AUTH = {
 };
 
 exports.EMAIL = {
-	account: argv.email_account || 'your email address like : i@biaochenxuying',
+	account: argv.email_account || 'your email address like : i@alexwjj',
 	password: argv.email_password || 'your email password',
-	from: 'https://github.com/biaochenxuying',
-	admin: 'biaochenxuying',
+	from: 'https://github.com/alexwjj',
+	admin: 'alexwjj',
 };
 
 exports.AKISMET = {
 	key: argv.akismet_key || 'your akismet Key',
-	blog: argv.akismet_blog || 'your akismet blog site, like: http://biaochenxuying.cn/main.html',
+	blog: argv.akismet_blog || 'your akismet blog site, like: http://alexwjj.cn/main.html',
 };
 
 exports.GITHUB = {
-	username: 'biaochenxuying',
+	username: 'alexwjj',
 	oauth_uri: 'https://github.com/login/oauth/authorize',
 	access_token_url: 'https://github.com/login/oauth/access_token',
 	// 获取 github 用户信息 url // eg: https://api.github.com/user?access_token=****&scope=&token_type=bearer
@@ -59,7 +59,7 @@ exports.GITHUB = {
 
 	// 请把生产环境的 redirect_url，client_id 和 client_secret 中的 "****", 换成自己创建的 OAuth App 的具体参数即可。
 	// // 生产环境
-  // redirect_url: 'http://biaochenxuying.cn/login',
+  // redirect_url: 'http://alexwjj.cn/login',
   // client_id: '*****',
 	// client_secret: '*****',
 
@@ -75,7 +75,7 @@ exports.ALIYUN = {
 };
 
 exports.BAIDU = {
-	site: argv.baidu_site || 'your baidu site domain like : biaochenxuying',
+	site: argv.baidu_site || 'your baidu site domain like : alexwjj',
 	token: argv.baidu_token || 'your baidu seo push token',
 };
 
@@ -92,6 +92,6 @@ exports.INFO = {
 	// version: package.version,
 	// author: package.author,
 	// site: exports.APP.URL,
-	github: 'https://github.com/biaochenxuying',
+	github: 'https://github.com/alexwjj',
 	powered: ['react', 'Nodejs', 'MongoDB', 'Express', 'Nginx'],
 };

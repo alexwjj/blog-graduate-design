@@ -1,5 +1,5 @@
 import './index.less';
-import logo from '../../assets/userLogo.jpeg';
+import logo from '../../assets/userLogo.png';
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
@@ -1245,7 +1245,7 @@ class Index extends Component {
         <div className="content">
           <div className="home-header">
             <Link className="link" to={`/home`}>
-              <img className="home-logo" src={logo} alt="biaochenxuying logo" />
+              <img className="home-logo" src={logo} alt="alexwjj logo" />
             </Link>
           </div>
           <div className="home-body">
@@ -1260,7 +1260,7 @@ class Index extends Component {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="link"
-                href={`https://github.com/biaochenxuying`}
+                href={`https://github.com/alexwjj`}
               >
                 github
               </a>
@@ -1284,7 +1284,7 @@ class Index extends Component {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="link"
-                href={`https://segmentfault.com/u/biaochenxuying`}
+                href={`https://segmentfault.com/u/alexwjj`}
               >
                 segmentfault
               </a>

@@ -2,7 +2,7 @@
  * Category model module.
  * @file 分类数据模型
  * @module model/category
- * @author biaochenxuying <https://github.com/biaochenxuying>
+ * @author alexwjj <https://github.com/alexwjj>
  */
 
 const { mongoose } = require('../core/mongodb.js');

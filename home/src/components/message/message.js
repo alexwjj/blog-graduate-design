@@ -86,7 +86,7 @@ class TimeLineCustom extends Component {
       <div className="message">
         <div className="">
           <Input
-            style={{ marginBottom: 40 }}
+            style={{ marginBottom: 40, width: 400, marginLeft: 200 }}
             prefix={<Icon type="safety" style={{ color: 'rgba(0,0,0,.25)' }} />}
             name="email"
             placeholder="邮箱（不能为空）"
@@ -94,7 +94,7 @@ class TimeLineCustom extends Component {
             onChange={this.handleChange}
           />
           <Input
-            style={{ marginBottom: 40 }}
+            style={{ marginBottom: 40, width: 400, marginLeft: 200 }}
             prefix={<Icon type="lock" style={{ color: 'rgba(0,0,0,.25)' }} />}
             name="name"
             placeholder="名字（可为空）"
@@ -102,7 +102,7 @@ class TimeLineCustom extends Component {
             onChange={this.handleChange}
           />
           <Input
-            style={{ marginBottom: 40 }}
+            style={{ marginBottom: 40, width: 400, marginLeft: 200 }}
             prefix={<Icon type="phone" style={{ color: 'rgba(0,0,0,.25)' }} />}
             name="phone"
             placeholder="手机（可为空）"
@@ -110,7 +110,7 @@ class TimeLineCustom extends Component {
             onChange={this.handleChange}
           />
           <Input
-            style={{ marginBottom: 40 }}
+            style={{ marginBottom: 40, width: 400, marginLeft: 200 }}
             prefix={
               <Icon type="message" style={{ color: 'rgba(0,0,0,.25)' }} />
             }
@@ -123,7 +123,7 @@ class TimeLineCustom extends Component {
         <div className="submit">
           <Button
             loading={this.state.isLoading}
-            style={{ width: '100%' }}
+            style={{ width: 400, marginLeft: 200 }}
             type="primary"
             onClick={this.handleOk}
           >

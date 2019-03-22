@@ -8,27 +8,27 @@ const FooterView = () => (
     <GlobalFooter
       links={[
         {
-          key: 'Pro 首页',
-          title: 'Pro 首页',
-          href: 'https://github.com/biaochenxuying/blog-react',
+          key: '博客管理系统',
+          title: '博客管理系统',
+          href: 'https://github.com/alexwjj',
           blankTarget: true,
         },
         {
           key: 'github',
           title: <Icon type="github" />,
-          href: 'https://github.com/biaochenxuying/blog-react-admin',
+          href: 'https://github.com/alexwjj',
           blankTarget: true,
         },
         {
-          key: 'Ant Design',
-          title: 'Ant Design',
-          href: 'https://ant.design',
+          key: '吴俊杰',
+          title: '吴俊杰',
+          href: 'https://github.com/alexwjj',
           blankTarget: true,
         },
       ]}
       copyright={
         <Fragment>
-          Copyright <Icon type="copyright" /> BiaoChenXuYing
+          Copyright <Icon type="copyright" /> alexwjj
         </Fragment>
       }
     />

@@ -2,14 +2,14 @@
 export default {
   // 支持值为 Object 和 Array
   'GET /api/currentUser': {
-    name: 'BiaoChenXuying',
+    name: 'alexwjj',
     // avatar: 'https://gw.alipayobjects.com/zos/rmsportal/BiazfanxmamNRoxxVxka.png',
-    avatar: 'http://p61te2jup.bkt.clouddn.com/WechatIMG8.jpeg',
+    avatar: 'https://upload.jianshu.io/users/upload_avatars/8468194/b2e3ac03-5f62-4434-96c0-aaff640786a3.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/240/h/240',
     userid: '00000001',
-    email: 'antdesign@alipay.com',
+    email: '798595965@qq.com',
     signature: '海纳百川，有容乃大',
     title: '交互专家',
-    group: 'BiaoChenXuying',
+    group: 'alexwjj',
     tags: [
       {
         key: '0',

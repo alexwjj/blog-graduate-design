@@ -2,7 +2,7 @@
  * Environment module.
  * @file Environment 环境配置
  * @module environment
- * @author biaochenxuying <https://github.com/biaochenxuying>
+ * @author alexwjj <https://github.com/alexwjj>
  */
 
 const environment = process.env.NODE_ENV;

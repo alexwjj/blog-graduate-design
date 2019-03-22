@@ -133,7 +133,7 @@ exports.currentUser = (req, res) => {
     user.notifyCount = 0;
     user.address = '广东省';
     user.country = 'China';
-    user.group = 'BiaoChenXuying';
+    user.group = 'alexwjj';
     (user.title = '交互专家'), (user.signature = '海纳百川，有容乃大');
     user.tags = [];
     user.geographic = {

@@ -2,7 +2,7 @@
  * User model module.
  * @file 权限和用户数据模型
  * @module model/user
- * @author biaochenxuying <https://github.com/biaochenxuying>
+ * @author alexwjj <https://github.com/alexwjj>
  */
 
 const crypto = require('crypto');

@@ -2,7 +2,7 @@
  * User model module.
  * @file 第三方授权登录的用户数据模型 (暂无用)
  * @module model/user
- * @author biaochenxuying <https://github.com/biaochenxuying>
+ * @author alexwjj <https://github.com/alexwjj>
  */
 
 const { mongoose } = require('../core/mongodb.js');
