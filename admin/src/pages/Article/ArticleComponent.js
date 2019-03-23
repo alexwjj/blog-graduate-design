@@ -136,6 +136,8 @@ class ArticleComponent extends React.Component {
     // console.log('tagsDefault :', tagsDefault)
     const { TextArea } = Input;
     const normalCenter = {
+      width: 800,
+      display: 'block',
       textAlign: 'center',
       marginBottom: 20,
     };
@@ -195,7 +197,7 @@ class ArticleComponent extends React.Component {
           />
 
           <Select
-            style={{ width: 200, marginTop: 20, marginBottom: 20 }}
+            style={{ width: 200, marginTop: 20, marginBottom: 20}}
             placeholder="选择发布状态"
             defaultValue={stateDefault}
             onChange={this.props.handleChangeState}

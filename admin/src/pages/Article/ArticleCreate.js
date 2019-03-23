@@ -6,6 +6,7 @@ import marked from 'marked';
 import highlight from 'highlight.js';
 import 'simplemde/dist/simplemde.min.css';
 import './style.less';
+import { blockStatement } from '@babel/types';
 
 @connect(({ article, tag, category }) => ({
 	article,
@@ -355,6 +356,8 @@ class ArticleCreate extends React.Component {
 		tagsDefault = [];
 		// }
 		const normalCenter = {
+			width: 800,
+			display: 'block',
 			textAlign: 'center',
 			marginBottom: 10,
 		};
@@ -464,6 +467,9 @@ class ArticleCreate extends React.Component {
     >
       {categoryChildren}
     </Select>
+    <div title="添加与修改文章" width="1200px">
+      <textarea id="editor" style={{ marginBottom: 20, width: 800 }} size="large" rows={6} />
+    </div>
     <div>
       <Button
         onClick={() => {
@@ -475,10 +481,6 @@ class ArticleCreate extends React.Component {
       >
 						提交
       </Button>
-    </div>
-
-    <div title="添加与修改文章" width="1200px">
-      <textarea id="editor" style={{ marginBottom: 20, width: 800 }} size="large" rows={6} />
     </div>
   </div>
 		);

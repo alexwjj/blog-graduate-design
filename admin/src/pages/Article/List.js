@@ -80,7 +80,7 @@ class TableList extends PureComponent {
           ),
         },
         {
-          title: '封面图',
+          title: '封面',
           width: 50,
           dataIndex: 'img_url',
           render: val => <Avatar shape="square" src={val} size={40} icon="user" />,
@@ -130,7 +130,7 @@ class TableList extends PureComponent {
         {
           title: '评论是否处理过',
           dataIndex: 'comments',
-          width: 50,
+          width: 150,
           render: comments => {
             // console.log('comments',comments)
             let flag = 1;
@@ -158,7 +158,7 @@ class TableList extends PureComponent {
           ),
         },
         {
-          title: '原创状态',
+          title: '来源',
           dataIndex: 'origin',
           width: 50,
           render: val => {
