@@ -14,14 +14,14 @@ exports.APP = {
 	PORT: 8000,
 	ROOT_PATH: __dirname,
 	NAME: 'alexwjj',
-	URL: 'http://alexwjj.cn/main.html',
+	URL: 'https://wujunjie.xin/home/build/index.html',
 	FRONT_END_PATH: path.join(__dirname, '..', 'alexwjj'),
 };
 
 exports.CROSS_DOMAIN = {
 	allowedOrigins: [
-		'http://alexwjj.cn/main.html',
-		'http://alexwjj.cn',
+		'https://wujunjie.xin/home/build/',
+		'https://wujunjie.xin',
 		'https://github.com/alexwjj',
 	],
 	allowedReferer: 'alexwjj',
@@ -47,7 +47,7 @@ exports.EMAIL = {
 
 exports.AKISMET = {
 	key: argv.akismet_key || 'your akismet Key',
-	blog: argv.akismet_blog || 'your akismet blog site, like: http://alexwjj.cn/main.html',
+	blog: argv.akismet_blog || 'your akismet blog site, like: https://wujunjie/home/build/index.html',
 };
 
 exports.GITHUB = {
