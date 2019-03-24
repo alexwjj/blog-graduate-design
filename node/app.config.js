@@ -14,14 +14,14 @@ exports.APP = {
 	PORT: 8000,
 	ROOT_PATH: __dirname,
 	NAME: 'alexwjj',
-	URL: 'https://wujunjie.xin/home/build/index.html',
+	URL: 'http://wujunjie.xin/home/build/index.html',
 	FRONT_END_PATH: path.join(__dirname, '..', 'alexwjj'),
 };
 
 exports.CROSS_DOMAIN = {
 	allowedOrigins: [
-		'https://wujunjie.xin/home/build/',
-		'https://wujunjie.xin',
+		'http://wujunjie.xin/home/build/',
+		'http://wujunjie.xin',
 		'https://github.com/alexwjj',
 	],
 	allowedReferer: 'alexwjj',
@@ -47,7 +47,7 @@ exports.EMAIL = {
 
 exports.AKISMET = {
 	key: argv.akismet_key || 'your akismet Key',
-	blog: argv.akismet_blog || 'your akismet blog site, like: https://wujunjie/home/build/index.html',
+	blog: argv.akismet_blog || 'your akismet blog site, like: http://wujunjie/home/build/index.html',
 };
 
 exports.GITHUB = {
@@ -59,14 +59,14 @@ exports.GITHUB = {
 
 	// 请把生产环境的 redirect_url，client_id 和 client_secret 中的 "****", 换成自己创建的 OAuth App 的具体参数即可。
 	// // 生产环境
-  // redirect_url: 'http://alexwjj.cn/login',
-  // client_id: '*****',
-	// client_secret: '*****',
+//   redirect_url: 'http://wujunjie.xin/login',
+//   client_id: 'c5868d942dc154c28543',
+//   client_secret: 'd517123850f2b9adc3528a5dec038a67a3ebc2e0',
 
 	// 开发环境 （参数可以直接用，公供测试）
 	redirect_url: "http://localhost:3001/login",
-  client_id: "502176cec65773057a9e",
-	client_secret: "65d444de381a026301a2c7cffb6952b9a86ac235",
+    client_id: "c5868d942dc154c28543",
+	client_secret: "d517123850f2b9adc3528a5dec038a67a3ebc2e0",
 	
 };
 

@@ -40,7 +40,7 @@ class TableList extends PureComponent {
 					render: (text, record) => (
   <Fragment>
     <Popconfirm title="Sure to delete?" onConfirm={() => this.handleDelete(text, record)}>
-      <a href="javascript:;">Delete</a>
+      <a href="javascript:;">删除</a>
     </Popconfirm>
   </Fragment>
 					),

@@ -93,18 +93,16 @@ class Workplace extends PureComponent {
     const extraContent = (
       <div className={styles.extraContent}>
         <div className={styles.statItem}>
-          <p>项目数</p>
+          <p>文章数</p>
           <p>56</p>
         </div>
         <div className={styles.statItem}>
-          <p>团队内排名</p>
-          <p>
-            8<span> / 24</span>
-          </p>
+          <p>点赞数</p>
+          <p>88</p>
         </div>
         <div className={styles.statItem}>
-          <p>项目访问</p>
-          <p>2,223</p>
+          <p>今日博客访问数</p>
+          <p>1,223</p>
         </div>
       </div>
     );
@@ -116,7 +114,8 @@ class Workplace extends PureComponent {
         extraContent={extraContent}
       >
         <Row gutter={24}>
-          <Col xl={16} lg={24} md={24} sm={24} xs={24}>内容</Col>
+          <Col xl={16} lg={24} md={24} sm={24} xs={24}>
+          </Col>
         </Row>
       </PageHeaderWrapper>
     );

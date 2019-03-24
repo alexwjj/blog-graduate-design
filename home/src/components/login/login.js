@@ -124,9 +124,9 @@ class Login extends Component {
           >
             登录
           </Button>
-          <Button style={{ width: '100%' }} onClick={this.handleOAuth}>
+          {/* <Button style={{ width: '100%' }} onClick={this.handleOAuth}>
             github 授权登录
-          </Button>
+          </Button> */}
         </div>
       </Modal>
     );

@@ -421,7 +421,7 @@ class Nav extends Component {
         >
           <div className="drawer">
             <p onClick={this.onClose}>
-              <Link to="/">
+              <Link to="/" target="_blank">
                 <Icon type="home" /> 首页
               </Link>
             </p>

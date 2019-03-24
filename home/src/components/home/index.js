@@ -1268,7 +1268,7 @@ class Index extends Component {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="link"
-                href={`https://juejin.im/user/591d6b4d0ce463006926ae40`}
+                href={`https://juejin.im/user/5c653892f265da2dd37c04ab`}
               >
                 掘金
               </a>
@@ -1276,29 +1276,15 @@ class Index extends Component {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="link"
-                href={`https://www.zhihu.com/people/gu-jian-qi-tan-shui/activities`}
-              >
-                知乎
-              </a>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                className="link"
-                href={`https://segmentfault.com/u/alexwjj`}
-              >
-                segmentfault
-              </a>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                className="link"
-                href={`https://www.jianshu.com/u/91717b553bfd`}
+                href={`https://www.jianshu.com/u/81a990ed5eff`}
               >
                 简书
               </a>
+              <Link className="link" to={`/about`}>
+                关于我
+              </Link>
             </div>
-            {/* <div className="logion"> 加班到天明，学习到昏厥 ！！！ </div> */}
-            <div className="introduce"> 时光正好，未来可期，加油 ！ </div>
+            <div className="introduce"> 一枚前端攻城狮的小博客 ~</div>
           </div>
         </div>
       </div>
