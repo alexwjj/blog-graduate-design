@@ -21,7 +21,7 @@
     "mongoose": "^5.7.5",
     "mongoose-auto-increment": "^5.0.1",
     "morgan": "~1.9.0",
-    "node-fetch": "^2.3.0",
+    "node-fetch": "^2.6.1",
     "yargs": "^12.0.2"
   }
 }
